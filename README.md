@@ -1,1 +1,2 @@
-# ancsharpexample
+# TimeLooker
+If Look ur time info was to ez like an linux neofetch...
