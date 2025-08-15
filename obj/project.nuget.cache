@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PmVZDjH0GLg=",
+  "dgSpecHash": "4FZWkiIUSEo=",
   "success": true,
   "projectFilePath": "D:\\llamita\\ancsharpexample\\ancsharpexample.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ALEGAMeR M\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.19\\microsoft.net.illink.tasks.8.0.19.nupkg.sha512"
+  ],
   "logs": []
 }

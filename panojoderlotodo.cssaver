@@ -1,0 +1,56 @@
+        DateTime ahora = DateTime.Now;
+        TimeZoneInfo zonaHoraria = TimeZoneInfo.Local;
+  
+        Console.WriteLine("                     TimeLooker+");
+        Console.WriteLine("| -----------------------------------------------------------------------------------|");
+        Console.WriteLine("| PC Actual Date Format: " + ahora.ToString("dddd, dd MMMM yyyy"));
+        Console.WriteLine("| PC Actual Hour: " + ahora.ToString("HH:mm:ss"));
+        Console.WriteLine("| PC Configure Time Zone : " + zonaHoraria.DisplayName);
+        Console.WriteLine("| PC Actual Day : " + ahora.Day);
+        Console.WriteLine("| PC Actual Month : " + ahora.Month);
+        Console.WriteLine("| PC Actual Year : " + ahora.Year);
+        bool internet = CheckInternetConnection();
+        Console.WriteLine("| PC Haves Internet? : " + (internet ? "True" : "False"));
+        Console.Write("| -----------------------------------------------------------------------------------|");
+
+        # TODO
+
+        using System;
+using System.Net.NetworkInformation;
+
+class Program
+{
+    static void Main()
+    {
+        DateTime ahora = DateTime.Now;
+        TimeZoneInfo zonaHoraria = TimeZoneInfo.Local;
+  
+        Console.WriteLine("                     TimeLooker+");
+        Console.WriteLine("| -----------------------------------------------------------------------------------|");
+        Console.WriteLine("| PC Actual Date Format: " + ahora.ToString("dddd, dd MMMM yyyy"));
+        Console.WriteLine("| PC Actual Hour: " + ahora.ToString("HH:mm:ss"));
+        Console.WriteLine("| PC Configure Time Zone : " + zonaHoraria.DisplayName);
+        Console.WriteLine("| PC Actual Day : " + ahora.Day);
+        Console.WriteLine("| PC Actual Month : " + ahora.Month);
+        Console.WriteLine("| PC Actual Year : " + ahora.Year);
+        bool internet = CheckInternetConnection();
+        Console.WriteLine("| PC Haves Internet? : " + (internet ? "True" : "False"));
+        Console.Write("| -----------------------------------------------------------------------------------|");
+    }
+
+    static bool CheckInternetConnection()
+    {
+        try
+        {
+            using (var ping = new Ping())
+            {
+                PingReply reply = ping.Send("9.9.9.9", 3000);
+                return (reply.Status == IPStatus.Success);
+            }
+        }
+        catch
+        {
+            return false;
+        }
+    }    
+}

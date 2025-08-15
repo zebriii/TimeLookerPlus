@@ -1,0 +1,2 @@
+D:\llamita\ancsharpexample\bin\Release\net8.0\win-x64\publish\ancsharpexample.pdb
+D:\llamita\ancsharpexample\bin\Release\net8.0\win-x64\publish\ancsharpexample.exe

@@ -1,0 +1,15 @@
+D:\llamita\ancsharpexample\bin\Release\net8.0\win-x64\ancsharpexample.exe
+D:\llamita\ancsharpexample\bin\Release\net8.0\win-x64\ancsharpexample.deps.json
+D:\llamita\ancsharpexample\bin\Release\net8.0\win-x64\ancsharpexample.runtimeconfig.json
+D:\llamita\ancsharpexample\bin\Release\net8.0\win-x64\ancsharpexample.dll
+D:\llamita\ancsharpexample\bin\Release\net8.0\win-x64\ancsharpexample.pdb
+D:\llamita\ancsharpexample\obj\Release\net8.0\win-x64\ancsharpexample.GeneratedMSBuildEditorConfig.editorconfig
+D:\llamita\ancsharpexample\obj\Release\net8.0\win-x64\ancsharpexample.AssemblyInfoInputs.cache
+D:\llamita\ancsharpexample\obj\Release\net8.0\win-x64\ancsharpexample.AssemblyInfo.cs
+D:\llamita\ancsharpexample\obj\Release\net8.0\win-x64\ancsharpexample.csproj.CoreCompileInputs.cache
+D:\llamita\ancsharpexample\obj\Release\net8.0\win-x64\ancsharpexample.sourcelink.json
+D:\llamita\ancsharpexample\obj\Release\net8.0\win-x64\ancsharpexample.dll
+D:\llamita\ancsharpexample\obj\Release\net8.0\win-x64\refint\ancsharpexample.dll
+D:\llamita\ancsharpexample\obj\Release\net8.0\win-x64\ancsharpexample.pdb
+D:\llamita\ancsharpexample\obj\Release\net8.0\win-x64\ancsharpexample.genruntimeconfig.cache
+D:\llamita\ancsharpexample\obj\Release\net8.0\win-x64\ref\ancsharpexample.dll
