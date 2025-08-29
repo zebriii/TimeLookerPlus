@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ancsharpexample/1.0.0": {
+        "runtime": {
+          "ancsharpexample.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ancsharpexample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,5 @@
+D:\llamita\ancsharpexample\bin\Release\net8.0\publish\ancsharpexample.exe
+D:\llamita\ancsharpexample\bin\Release\net8.0\publish\ancsharpexample.dll
+D:\llamita\ancsharpexample\bin\Release\net8.0\publish\ancsharpexample.deps.json
+D:\llamita\ancsharpexample\bin\Release\net8.0\publish\ancsharpexample.runtimeconfig.json
+D:\llamita\ancsharpexample\bin\Release\net8.0\publish\ancsharpexample.pdb

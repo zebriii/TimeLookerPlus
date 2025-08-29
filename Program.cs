@@ -112,15 +112,15 @@ class Program
         try
         {
             Ping ping = new Ping();
-            PingReply reply = ping.Send("8.8.8.8", 3000);
+            PingReply reply = ping.Send("9.9.9.9", 3000);
 
             if (reply.Status == IPStatus.Success)
             {
-                Console.WriteLine("Ping exitoso a 8.8.8.8");
+                Console.WriteLine("Ping Pong!: Success");
             }
             else
             {
-                Console.WriteLine("No se pudo hacer ping a 8.8.8.8");
+                Console.WriteLine("Ping Pong!: Not Success");
             }
         }
         catch (Exception ex)
