@@ -31,6 +31,27 @@ class Program
                 case "3":
                     Console.WriteLine("Goodbye.");
                     return; // termina el programa
+                case "gaster":
+                    Console.WriteLine("...");
+                    return;
+                case "ejemplo":
+                    CodeEjemplo();
+                    break;
+                case "example":
+                    CodeExample();
+                    break;
+                case "salir":
+                    Console.WriteLine("Closing console");
+                    return;
+                case "menu":
+                    Console.WriteLine("Back to menu");
+                    return;
+                case "gneral":  
+                    Console.WriteLine("Gneral");
+                    return;
+                case "no":
+                    Console.WriteLine("No");
+                    return;
                 default:
                     Console.WriteLine("Option its not valid.");
                     break;
@@ -39,7 +60,15 @@ class Program
             Console.WriteLine(); // línea en blanco para separar iteraciones
         }
     }
-
+    
+    static void CodeEjemplo()
+        {
+            Console.WriteLine("+ Ejemplo");
+        }
+    static void CodeExample()
+        {
+            Console.WriteLine("+ Example");
+        }
     static void ShowDateInfo()
         {
             
